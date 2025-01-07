@@ -1,0 +1,2 @@
+# sample_microservice_architecture
+Sample microservice architecture following best practices
