@@ -1,0 +1,12 @@
+server.port: 8081
+
+spring:
+  application:
+    name: ms-users
+  data.mongodb:
+    uri: mongodb+srv://oahmam:fAHJ4qM8CE433NyN@main.jofek.mongodb.net/?retryWrites=true&w=majority&appName=main
+    database: users_db
+  security.oauth2:
+    resourceserver:
+      jwt:
+        jwk-set-uri: http://localhost:8080/realms/esolution/protocol/openid-connect/certs
